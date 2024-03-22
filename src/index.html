@@ -59,6 +59,7 @@
 
 
 
+<<<<<<< HEAD
 // function betterThanAverage(classPoints, yourPoints) {
 //     let total = 0
 //  for(let i = 0; i<classPoints.length;i++){
@@ -78,6 +79,18 @@ function isIsogram(str){
  }
 }
 console.log(isIsogram('cat'))
+=======
+function betterThanAverage(classPoints, yourPoints) {
+    let total = 0
+ for(let i = 0; i<classPoints.length;i++){
+    total = total+ classPoints[i]
+ }
+ total = total/classPoints.length
+  return yourPoints > total ? true:false
+}
+console.log(betterThanAverage([5,2], 4))
+
+>>>>>>> eb8876595f7f791f723c71ca3b337f1700d396aa
     </script>
 </body>
 </html>
